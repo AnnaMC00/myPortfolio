@@ -9,19 +9,18 @@ body {
 }
 
 main {
-    margin: 20px;
+    padding: 20px;
 }
 
 h1 {
     font-size: 60px;
-    padding-top: 20px;
     color: #77cdbf;
     margin: 0;
-    padding-top: 160px;
+    padding-top: 180px;
 }
 
 h2 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 h2,
@@ -37,4 +36,26 @@ a {
 
 a:hover {
     color: white;
+}
+
+@media screen and (min-width: 660px) {
+    main {
+        padding-left: 50px;
+    }
+
+    h1 {
+        font-size: 100px;
+        padding-top: 80px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1112px) {
+    h1 {
+        padding-top: 200px;
+    }
 }
