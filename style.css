@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(#ffffff 50%, #77cdbf 50%);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+}
+
+main {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 20px;
+    color: #77cdbf;
+    margin: 0;
+    padding-top: 160px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h2,
+h3,
+p,
+a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
